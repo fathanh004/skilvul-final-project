@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: 89ea9dbcde7176744a15d87cf8f0fe02
+  - enabled: 1
+    path: Assets/Scenes/Istana.unity
+    guid: 99e55a6ff0181824890e7ae7953af4bb
+  - enabled: 1
+    path: Assets/Scenes/Kerajaan.unity
+    guid: 0bae2766494c01a45a5e69184b44bb82
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: fe5908964a0b71546b8b27a9f3819239
   m_configObjects: {}
