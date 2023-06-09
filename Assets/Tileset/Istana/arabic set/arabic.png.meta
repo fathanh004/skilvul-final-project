@@ -762,7 +762,7 @@ TextureImporter:
         x: 96
         y: 160
         width: 64
-        height: 96
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1856,7 +1856,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1864,6 +1864,27 @@ TextureImporter:
       bones: []
       spriteID: bf3ff2f24eaec5541afcf1edd49c013b
       internalID: -1182583297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arabic_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 226
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70b0a0efc288a42b34784162b50e01
+      internalID: 1545524751
       vertices: []
       indices: 
       edges: []

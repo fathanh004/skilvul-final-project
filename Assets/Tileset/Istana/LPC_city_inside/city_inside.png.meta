@@ -762,7 +762,7 @@ TextureImporter:
         x: 608
         y: 416
         width: 32
-        height: 96
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -991,9 +991,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 384
+        y: 403
         width: 32
-        height: 64
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2519,6 +2519,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: city_inside_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272032c2073cbc941a7495ba78bec40e
+      internalID: -664028007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_inside_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 452
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49e9089c2dc5c341b3c807321ea38e1
+      internalID: -1964522809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2608,13 +2650,13 @@ TextureImporter:
       city_inside_146: -272410237
       city_inside_72: 697208407
       city_inside_135: -1468740103
-      city_inside_115: -1642124663
-      city_inside_54: -2008568226
-      city_inside_77: 1360532927
       city_inside_62: 1945492394
+      city_inside_65: 1261334962
+      city_inside_77: 1360532927
+      city_inside_115: -1642124663
       city_inside_73: 1431707278
       city_inside_20: 1830704763
-      city_inside_65: 1261334962
+      city_inside_54: -2008568226
       city_inside_93: -1012611147
       city_inside_41: -1602706525
       city_inside_137: 1647778941
