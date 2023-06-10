@@ -466,9 +466,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 672
-        y: 992
+        y: 928
         width: 32
-        height: 32
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,27 +819,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jungle-ruins_34
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 960
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce07d5b2b8d439e4a822a8c13efc1603
-      internalID: 1132866670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: jungle-ruins_35
       rect:
         serializedVersion: 2
@@ -1171,27 +1150,6 @@ TextureImporter:
       bones: []
       spriteID: 6b8cdf3282c37c2438fa38618a7a27a6
       internalID: -344667695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jungle-ruins_51
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 928
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8034113b7950b30439c0240c1917e9dd
-      internalID: 1483173361
       vertices: []
       indices: 
       edges: []
@@ -3196,9 +3154,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 928
-        y: 640
-        width: 32
-        height: 32
+        y: 576
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3208,27 +3166,6 @@ TextureImporter:
       bones: []
       spriteID: 0b9dee7eed28ddb4ba747d3ed0b806e4
       internalID: 2115285588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jungle-ruins_148
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 640
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d32e510affe7cb41843a0624ed7eeeb
-      internalID: 1204442681
       vertices: []
       indices: 
       edges: []
@@ -3675,48 +3612,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jungle-ruins_170
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 608
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3c51e0ab6bf2e54d9594b65a42f8249
-      internalID: -1764600853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jungle-ruins_171
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 608
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72ee4c51a17a90746bfd0f5419ff60c3
-      internalID: -185125874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: jungle-ruins_172
       rect:
         serializedVersion: 2
@@ -4111,48 +4006,6 @@ TextureImporter:
       bones: []
       spriteID: 5cd07cfaa9da0b94e872a2201fb6aa57
       internalID: -247160980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jungle-ruins_191
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 576
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5ae238175799c84f9013f32bc497dcf
-      internalID: 63172241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jungle-ruins_192
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 576
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9267587bbadf9c1409e943a8fcd43cd4
-      internalID: 1818070513
       vertices: []
       indices: 
       edges: []
@@ -5166,27 +5019,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jungle-ruins_241
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 512
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ba24e17ddce8064bb03c0f3b5ed2773
-      internalID: 1235433214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: jungle-ruins_242
       rect:
         serializedVersion: 2
@@ -5581,27 +5413,6 @@ TextureImporter:
       bones: []
       spriteID: c5464f3458af95947a50a978043a8404
       internalID: -1629948726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jungle-ruins_261
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 480
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80beb0e27eac80840ba23fcdb111ab2c
-      internalID: 1917416268
       vertices: []
       indices: 
       edges: []
@@ -10453,6 +10264,27 @@ TextureImporter:
       bones: []
       spriteID: ee4a4ebbc97f93c4eb65ad315299c745
       internalID: -66422615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-ruins_148
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 480
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec719c03a2dbeb24c9ae5c9d9065aee0
+      internalID: 1204442681
       vertices: []
       indices: 
       edges: []
