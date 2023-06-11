@@ -2,20 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
     [SerializeField] float speed;
     [SerializeField] VariableJoystick joystick;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
+     [SerializeField] GameObject uiInventory;
+     [SerializeField] Button btnInteraksi;
     public TextMeshProUGUI skortx;
+    public AudioSource footstep;
     public int skorPlayer=0;
+    public bool isFindInteractable=false;
     Vector2 direction;
-
+    public IteminGame itemInteraksi;
     public Vector2 Direction { get { return direction; } }
 
     private void Start()
     {
+        instance=this;
+        btnInteraksi.interactable=false;
         rb.gravityScale = 0;
         if( PlayerPrefs.HasKey("skor")){
             skorPlayer = PlayerPrefs.GetInt("skor");
@@ -23,6 +31,29 @@ public class PlayerController : MonoBehaviour
             //load posisi
             transform.position= new Vector3( PlayerPrefs.GetFloat("posx"),PlayerPrefs.GetFloat("posy"),PlayerPrefs.GetFloat("posz"));
         }
+    }
+
+    public void OpenInventory(){
+        
+        uiInventory.transform.localScale= Vector3.zero;
+         uiInventory.SetActive(true);
+         LeanTween.scale(uiInventory,Vector3.one,0.2f).setEaseInOutBounce();
+    }
+     public void CloseInventory(){
+        
+      
+         LeanTween.scale(uiInventory,Vector3.zero,0.2f);
+    }
+
+    public void ToggleInteractButton(bool isInteractable,IteminGame item){
+        itemInteraksi=item;
+        btnInteraksi.interactable=isInteractable;
+    }
+
+    public void KlikButtonInteraksi(){
+      
+        SistemInventori.instance.TambahItem(itemInteraksi.itemCollect);
+        itemInteraksi.gameObject.SetActive(false);
     }
     public void SaveGame(){
          //save posisi
@@ -40,6 +71,7 @@ public class PlayerController : MonoBehaviour
         }
    
     }
+    bool isSekaliPlayfoot=false;
     private void Update()
     {
         
@@ -53,11 +85,20 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("Vertical", direction.y);
         }
         animator.SetFloat("Speed", direction.magnitude);
+        
     }
 
     private void FixedUpdate()
     {
         rb.velocity = direction * speed;
+        if( rb.velocity != Vector2.zero && !isSekaliPlayfoot){
+            isSekaliPlayfoot=true;
+            footstep.Play();
+        }else{
+            isSekaliPlayfoot=false;
+            footstep.Stop();
+        }
+    
     }
 
 }

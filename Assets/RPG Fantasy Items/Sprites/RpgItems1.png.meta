@@ -1,0 +1,2313 @@
+fileFormatVersion: 2
+guid: 83bf93558b0ec514a95bd6edcd67f7ac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RpgItems1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f95df756dd901140b6dff975636c257
+      internalID: -780081181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 145
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dca63de1db8f824384b594874f5eac5
+      internalID: -1619823366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 145
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2fc37190341214eaa91d9db04d4064
+      internalID: -150453319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca89aaf1f48638f45996f27dcbf657e1
+      internalID: 2111754982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 145
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ab375f436d2774199b59a607fe822f
+      internalID: 2014303734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ed908d2341a17479a2d22f9457452e
+      internalID: 1152133367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5fe1e9d820792429a3454778d7269d
+      internalID: -625194406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6092db3fb94a2c64eb026d72fa66b903
+      internalID: 602978316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e94c5585dc731449bab0a6cd030fdfd
+      internalID: 1425482317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 145
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e000ab14161f646aefcf435d0a8e10
+      internalID: 1120993593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3371bc8a428f4344b105859907a09dd
+      internalID: 419598920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 129
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f2d02342f8ce46ad88b415b4d11e9
+      internalID: -1359383658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06a709558b4d9c4186171fa7ef2c0fe
+      internalID: -620995458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 129
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c501bfdf26a89124cb9dc7c298f160a8
+      internalID: -2025564981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 129
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529beac476afb994f870c9f798fa0e6d
+      internalID: 423514820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d535ed45a1373404a96608e6e1bb4fe0
+      internalID: -164865625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 129
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035eacfd732d60a408d51d2f34a0879f
+      internalID: -837178340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 129
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d8438785820b248b6017056cf57248
+      internalID: -1465861950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 129
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2689b6d537a434542b1ab8898e721d8b
+      internalID: 1836187507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25386ba6a9618254e9103de69c4c2c8e
+      internalID: -1891830945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555fbc9f57b76304a9ff7cde23ebd4a5
+      internalID: -1582802108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b0027df09dba48b272e079883234c
+      internalID: -948114617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8184d081222b3214995653d0093660b3
+      internalID: 1065861983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d288520a9554984981ec161bce0c146
+      internalID: -892363448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6372609dca9de64a878864091a0a57c
+      internalID: 7905868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd857b771a2e85d48a4e7ba24fc7f42d
+      internalID: 112042510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9048245e09c2dd54389cc8cedfb9b368
+      internalID: -661738681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8732a25fad054b94faa1a04fc522edc7
+      internalID: -928068051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b7344f28ccc384d94072d12e6cc261
+      internalID: -1958472983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_29
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d0e634327a68f49b1fb4262122a34d
+      internalID: 55230089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe860fa81772ef6478a0ae48b4062302
+      internalID: 1880820098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946d794fd564fa14ab3c18e2c7d01da6
+      internalID: -365869770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1a71a554142a4b859958e6240df46
+      internalID: -1566114668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b6e74778f290d4ab2c96a25c1eff9c
+      internalID: 984334209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 100
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b84f97257a9554cb49cfc4693661c8
+      internalID: 1664946299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 100
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9950c2acddc72448363b94b16d365f
+      internalID: 372484838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_36
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bdc0c2197035c49bdd27f835a4f16b
+      internalID: -1467610742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_37
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 100
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4ae3f06983df4b80bfae2587c7a74
+      internalID: -2123173861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_38
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 100
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3650d2fc9459748b8faf442c2eba2c
+      internalID: 510232184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf6bd9e249e434b934dadd6d6da983
+      internalID: 1758251296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ead12273054f4c870783b3b058aa7
+      internalID: 1996102288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc1033f0b573ca4e8cb699a9773d814
+      internalID: -669972084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_42
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18f864ee5d53214fb3f831b920cef16
+      internalID: -561320157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_43
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da422174337ea54a8949a114009ef88
+      internalID: 260409410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_44
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5318535166d7abd4287ce713b68e762f
+      internalID: 699143614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40affd99e1e505c4bb45df5091ca1281
+      internalID: 981745756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_46
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca87eb65d3a215429878e1374f8909f
+      internalID: 1540738559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_47
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176c7772d7e436a45957e342512f569e
+      internalID: 208813892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_48
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfc3d78c97de6448b80bddcab5fa8f8
+      internalID: -482457043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3540c1bb8164ab4db2afdeb64c91372
+      internalID: 429539710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f07ede701b297942800ee4649268c90
+      internalID: -44319558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_51
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1f6dfd877c79844b5a456eb84b6836
+      internalID: -149834455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d757c098e55c784c80b0c14910c2778
+      internalID: 1842358090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_53
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8760fe36885f4345a3ece384b771fc2
+      internalID: -35407297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c45c00d6886ac42a1fa6391db0f0d6
+      internalID: -274413898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 50
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46b2e07ef51984f84ffeb9ae314e33
+      internalID: 74375453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a54d08910566ef4ea148f90adc735c5
+      internalID: 719928112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c7e89485f3e6944936755564fbefaf
+      internalID: -717463440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 65
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17df19b7ed701e48870bf40197d5a7f
+      internalID: 1538719818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b4402124012854297dd52e25366963
+      internalID: -1702308243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 65
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b5a431a69cbb2428cacbbb986dd140
+      internalID: 1648741774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fb81d39af8fb4488e99bc19f586666
+      internalID: -1205809087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16362580082c770429e2fb22a9bab3fc
+      internalID: 1076563525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eaada6c4801a944ab0d9583547a33b
+      internalID: -1365023891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ab8d3adb997164b8f906c5c858079c
+      internalID: -795741625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_65
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 50
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aaa9e69fc1c084980334a6cc009e7f
+      internalID: 1953939990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 50
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd76f1d6ff93f9c46bf31220fde81f44
+      internalID: -48157945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 50
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca44e39857b2b748b5146ef0c07ed76
+      internalID: -1294158046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 50
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c51d1a1a52a8418cd5ad8e465bf1d
+      internalID: 699740410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_69
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cedcb1c67d9ad643aaa87e1e127fff9
+      internalID: 93636577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f209c029443f0784686cf51ecadddee2
+      internalID: 483774837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc384802dd68fe4f95e9d93a82b2e68
+      internalID: 1531288901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c2ed4194225494f9eb62144c8aa071
+      internalID: -1431662800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_73
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0858590458d2ce42af98792bf1c837c
+      internalID: -1498022141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041eef081cd34de4db3a30036f6e7ea5
+      internalID: -1208271866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_75
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe0fbbe32b57f64da4e22962895003a
+      internalID: -154071170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_76
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158ba5ba2f41d1489d3b25b40548e06
+      internalID: 1519793019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717bac991d6575747acb2c690781736c
+      internalID: 959964257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_78
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 34
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea0c7a00d1825f45b0725e994a2d792
+      internalID: 617955123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0478952cd596b274e8b7f85ea3f81df7
+      internalID: 231881649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_80
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f792c91e440b6d459e1a48054cf73af
+      internalID: -1157982198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_81
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16d8c03949dbfd459086b836b279596
+      internalID: 1157010873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_82
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7712d59676dea409d2ca3d0ad1bff0
+      internalID: 1407393433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_83
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d14131a286b1f458783469061ff18d
+      internalID: 1533843175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f7840c2c0d06d49b2d0f4aff1a4b44
+      internalID: 1247391191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_85
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2942c94cd4099b4b88e62b6fd0ce83e
+      internalID: -1242897750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_86
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 17
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8828891e0d365468fbf22b0c662cd5
+      internalID: -549512866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef6f51eeb6cf743a657fb5b2dfa835
+      internalID: 1326212262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_88
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 18
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9df43d23eba9740b0345bc91605adc
+      internalID: 1664996895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_89
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4011820dbcec9cb41ad7e0720b6ff944
+      internalID: 1649323034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_90
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449004f88ea5bca4787ceca5195971d7
+      internalID: -600143234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_91
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051c2e01ee413c3408c1639ec62f7894
+      internalID: 302356034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_92
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fab0e8c7e72864d92d09841d8300a1
+      internalID: -708092395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_93
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4b9ada4c452a74993d5fcc8a2a9eda
+      internalID: -1436012466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_94
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a06c14868f9fcc4e8915fee1e6b0a90
+      internalID: -540027184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_95
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e70bf14cc99ba4b8aaefa216107e97
+      internalID: 2009189516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_96
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407317cdf9c907d44985669fb32f7a0f
+      internalID: 2112434628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02463dfef1760254f953d0cc991183ae
+      internalID: 975201317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RpgItems1_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beffeb8d64af74143bf02a262ffc5c3f
+      internalID: -1095609828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RpgItems1_81: 1157010873
+      RpgItems1_0: -780081181
+      RpgItems1_78: 617955123
+      RpgItems1_4: 2014303734
+      RpgItems1_95: 2009189516
+      RpgItems1_18: 1836187507
+      RpgItems1_60: 1648741774
+      RpgItems1_54: -274413898
+      RpgItems1_7: 602978316
+      RpgItems1_90: -600143234
+      RpgItems1_37: -2123173861
+      RpgItems1_74: -1208271866
+      RpgItems1_32: -1566114668
+      RpgItems1_86: -549512866
+      RpgItems1_73: -1498022141
+      RpgItems1_96: 2112434628
+      RpgItems1_97: 975201317
+      RpgItems1_36: -1467610742
+      RpgItems1_88: 1664996895
+      RpgItems1_91: 302356034
+      RpgItems1_43: 260409410
+      RpgItems1_39: 1758251296
+      RpgItems1_68: 699740410
+      RpgItems1_85: -1242897750
+      RpgItems1_44: 699143614
+      RpgItems1_10: 419598920
+      RpgItems1_63: -1365023891
+      RpgItems1_58: 1538719818
+      RpgItems1_71: 1531288901
+      RpgItems1_27: -928068051
+      RpgItems1_76: 1519793019
+      RpgItems1_92: -708092395
+      RpgItems1_98: -1095609828
+      RpgItems1_41: -669972084
+      RpgItems1_34: 1664946299
+      RpgItems1_84: 1247391191
+      RpgItems1_50: -44319558
+      RpgItems1_89: 1649323034
+      RpgItems1_12: -620995458
+      RpgItems1_23: -892363448
+      RpgItems1_79: 231881649
+      RpgItems1_66: -48157945
+      RpgItems1_51: -149834455
+      RpgItems1_83: 1533843175
+      RpgItems1_48: -482457043
+      RpgItems1_25: 112042510
+      RpgItems1_62: 1076563525
+      RpgItems1_8: 1425482317
+      RpgItems1_2: -150453319
+      RpgItems1_42: -561320157
+      RpgItems1_75: -154071170
+      RpgItems1_6: -625194406
+      RpgItems1_21: -948114617
+      RpgItems1_40: 1996102288
+      RpgItems1_9: 1120993593
+      RpgItems1_1: -1619823366
+      RpgItems1_15: -164865625
+      RpgItems1_65: 1953939990
+      RpgItems1_20: -1582802108
+      RpgItems1_59: -1702308243
+      RpgItems1_38: 510232184
+      RpgItems1_19: -1891830945
+      RpgItems1_53: -35407297
+      RpgItems1_35: 372484838
+      RpgItems1_13: -2025564981
+      RpgItems1_5: 1152133367
+      RpgItems1_30: 1880820098
+      RpgItems1_70: 483774837
+      RpgItems1_61: -1205809087
+      RpgItems1_77: 959964257
+      RpgItems1_52: 1842358090
+      RpgItems1_33: 984334209
+      RpgItems1_55: 74375453
+      RpgItems1_11: -1359383658
+      RpgItems1_67: -1294158046
+      RpgItems1_72: -1431662800
+      RpgItems1_26: -661738681
+      RpgItems1_80: -1157982198
+      RpgItems1_14: 423514820
+      RpgItems1_56: 719928112
+      RpgItems1_64: -795741625
+      RpgItems1_3: 2111754982
+      RpgItems1_45: 981745756
+      RpgItems1_24: 7905868
+      RpgItems1_82: 1407393433
+      RpgItems1_94: -540027184
+      RpgItems1_16: -837178340
+      RpgItems1_22: 1065861983
+      RpgItems1_57: -717463440
+      RpgItems1_87: 1326212262
+      RpgItems1_17: -1465861950
+      RpgItems1_29: 55230089
+      RpgItems1_93: -1436012466
+      RpgItems1_28: -1958472983
+      RpgItems1_46: 1540738559
+      RpgItems1_69: 93636577
+      RpgItems1_31: -365869770
+      RpgItems1_49: 429539710
+      RpgItems1_47: 208813892
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
