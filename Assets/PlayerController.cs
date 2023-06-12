@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = direction * speed;
-        if( rb.velocity != Vector2.zero && !isSekaliPlayfoot){
+        if(rb.velocity != Vector2.zero && !isSekaliPlayfoot){
             isSekaliPlayfoot=true;
             footstep.Play();
         }else{
