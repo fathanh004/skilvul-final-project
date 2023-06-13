@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 4765038042027715838}
   - component: {fileID: 4765038042027715810}
   - component: {fileID: 4765038042027715811}
+  - component: {fileID: 728244129421812996}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -204,8 +205,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1811787879
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: -706688132, guid: ee080c31d9ac1a54aa8e6d55bd07f059, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -298,16 +299,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  joystick: {fileID: 0}
   rb: {fileID: 4765038042027715839}
-  animator: {fileID: 4765038042027715810}
-  uiInventory: {fileID: 0}
+  joystick: {fileID: 0}
   btnInteraksi: {fileID: 0}
+  uiInventory: {fileID: 0}
   skortx: {fileID: 0}
-  footstep: {fileID: 8471557706895896087}
   skorPlayer: 0
   isFindInteractable: 0
   itemInteraksi: {fileID: 0}
+--- !u!114 &728244129421812996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4765038042027715837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684f335419f2dd348a54fdc6f09fc1e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 4765038042027715811}
+  animator: {fileID: 4765038042027715810}
+  footstep: {fileID: 8471557706895896087}
 --- !u!1001 &2015324368574042508
 PrefabInstance:
   m_ObjectHideFlags: 0

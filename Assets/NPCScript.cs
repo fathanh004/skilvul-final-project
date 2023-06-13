@@ -56,6 +56,7 @@ public class NPCScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (canvas == null) return;
             canvas.gameObject.SetActive(true);
         }
     }
@@ -63,6 +64,7 @@ public class NPCScript : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other) {
         if (other.CompareTag("Player"))
         {
+            if (canvas == null) return;
             canvas.gameObject.SetActive(false);
         }
     }
