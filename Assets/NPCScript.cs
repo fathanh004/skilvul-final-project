@@ -7,7 +7,7 @@ public class NPCScript : MonoBehaviour
     [SerializeField] CharacterData characterData;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
-
+    [SerializeField] Canvas canvas;
 
     // Start is called before the first frame update
     void Start()
@@ -29,26 +29,41 @@ public class NPCScript : MonoBehaviour
         }
         animator.SetFloat("Speed", rb.velocity.magnitude);
 
-        //simple movement for testing
-        if (Input.GetKey(KeyCode.W))
+        // simple movement for testing
+        // if (Input.GetKey(KeyCode.W))
+        // {
+        //     rb.velocity = new Vector2(0, 1);
+        // }
+        // else if (Input.GetKey(KeyCode.S))
+        // {
+        //     rb.velocity = new Vector2(0, -1);
+        // }
+        // else if (Input.GetKey(KeyCode.A))
+        // {
+        //     rb.velocity = new Vector2(-1, 0);
+        // }
+        // else if (Input.GetKey(KeyCode.D))
+        // {
+        //     rb.velocity = new Vector2(1, 0);
+        // }
+        // else
+        // {
+        //     rb.velocity = Vector2.zero;
+        // }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            rb.velocity = new Vector2(0, 1);
+            canvas.gameObject.SetActive(true);
         }
-        else if (Input.GetKey(KeyCode.S))
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if (other.CompareTag("Player"))
         {
-            rb.velocity = new Vector2(0, -1);
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            rb.velocity = new Vector2(-1, 0);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            rb.velocity = new Vector2(1, 0);
-        }
-        else
-        {
-            rb.velocity = Vector2.zero;
+            canvas.gameObject.SetActive(false);
         }
     }
 }

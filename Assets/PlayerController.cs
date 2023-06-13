@@ -6,19 +6,27 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
+    
+    [Header("Physics")]
     [SerializeField] float speed;
-    [SerializeField] VariableJoystick joystick;
     [SerializeField] Rigidbody2D rb;
-    [SerializeField] Animator animator;
-    [SerializeField] GameObject uiInventory;
+
+    [Header("User Interface")]
+    [SerializeField] VariableJoystick joystick;
     [SerializeField] Button btnInteraksi;
+
+    [Space(20)]
+     
+    [SerializeField] GameObject uiInventory;
+
+    [Space(30)]
+
     public TextMeshProUGUI skortx;
-    public AudioSource footstep;
     public int skorPlayer = 0;
     public bool isFindInteractable = false;
     Vector2 direction;
     public IteminGame itemInteraksi;
-    public Vector2 Direction { get { return direction; } }
+    public Vector2 Direction { get { return direction; } set { direction = value; } }
 
     private void Start()
     {
@@ -79,31 +87,15 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    bool isFootstepPlaying = false;
-    private void Update()
-    {
+    
 
+    private void Update() {
         var horizontal = joystick.Horizontal;
         var vertical = joystick.Vertical;
         direction = new Vector2(horizontal, vertical);
         direction.Normalize();
-        if (direction.magnitude > 0.1f)
-        {
-            animator.SetFloat("Horizontal", direction.x);
-            animator.SetFloat("Vertical", direction.y);
-        }
-        animator.SetFloat("Speed", direction.magnitude);
-
-        if (direction.magnitude > 0.1f && !isFootstepPlaying) 
-        {
-            footstep.Play();
-            isFootstepPlaying = true;
-        } else if (direction.magnitude < 0.1f && isFootstepPlaying)
-        {
-            footstep.Stop();
-            isFootstepPlaying = false;
-        }
     }
+    
 
     private void FixedUpdate()
     {
