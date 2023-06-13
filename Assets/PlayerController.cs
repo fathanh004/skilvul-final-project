@@ -10,71 +10,79 @@ public class PlayerController : MonoBehaviour
     [SerializeField] VariableJoystick joystick;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
-     [SerializeField] GameObject uiInventory;
-     [SerializeField] Button btnInteraksi;
+    [SerializeField] GameObject uiInventory;
+    [SerializeField] Button btnInteraksi;
     public TextMeshProUGUI skortx;
     public AudioSource footstep;
-    public int skorPlayer=0;
-    public bool isFindInteractable=false;
+    public int skorPlayer = 0;
+    public bool isFindInteractable = false;
     Vector2 direction;
     public IteminGame itemInteraksi;
     public Vector2 Direction { get { return direction; } }
 
     private void Start()
     {
-        instance=this;
-        btnInteraksi.interactable=false;
+        instance = this;
+        btnInteraksi.interactable = false;
         rb.gravityScale = 0;
-        if( PlayerPrefs.HasKey("skor")){
+        if (PlayerPrefs.HasKey("skor"))
+        {
             skorPlayer = PlayerPrefs.GetInt("skor");
             UpScore();
             //load posisi
-            transform.position= new Vector3( PlayerPrefs.GetFloat("posx"),PlayerPrefs.GetFloat("posy"),PlayerPrefs.GetFloat("posz"));
+            transform.position = new Vector3(PlayerPrefs.GetFloat("posx"), PlayerPrefs.GetFloat("posy"), PlayerPrefs.GetFloat("posz"));
         }
     }
 
-    public void OpenInventory(){
-        
-        uiInventory.transform.localScale= Vector3.zero;
-         uiInventory.SetActive(true);
-         LeanTween.scale(uiInventory,Vector3.one,0.2f).setEaseInOutBounce();
+    public void OpenInventory()
+    {
+
+        uiInventory.transform.localScale = Vector3.zero;
+        uiInventory.SetActive(true);
+        LeanTween.scale(uiInventory, Vector3.one, 0.2f).setEaseInOutBounce();
     }
-     public void CloseInventory(){
-        
-      
-         LeanTween.scale(uiInventory,Vector3.zero,0.2f);
+    public void CloseInventory()
+    {
+
+
+        LeanTween.scale(uiInventory, Vector3.zero, 0.2f);
     }
 
-    public void ToggleInteractButton(bool isInteractable,IteminGame item){
-        itemInteraksi=item;
-        btnInteraksi.interactable=isInteractable;
+    public void ToggleInteractButton(bool isInteractable, IteminGame item)
+    {
+        itemInteraksi = item;
+        btnInteraksi.interactable = isInteractable;
     }
 
-    public void KlikButtonInteraksi(){
-      
+    public void KlikButtonInteraksi()
+    {
+
         SistemInventori.instance.TambahItem(itemInteraksi.itemCollect);
         itemInteraksi.gameObject.SetActive(false);
     }
-    public void SaveGame(){
-         //save posisi
-             skorPlayer+=10;
-            UpScore();
-        
-         PlayerPrefs.SetFloat("posx",transform.position.x);
-          PlayerPrefs.SetFloat("posy",transform.position.y);
-           PlayerPrefs.SetFloat("posz",transform.position.z);
+    public void SaveGame()
+    {
+        //save posisi
+        skorPlayer += 10;
+        UpScore();
+
+        PlayerPrefs.SetFloat("posx", transform.position.x);
+        PlayerPrefs.SetFloat("posy", transform.position.y);
+        PlayerPrefs.SetFloat("posz", transform.position.z);
     }
-    void UpScore(){
-        if(skortx != null){
-          skortx.text= "Skor="+skorPlayer;
-         PlayerPrefs.SetInt("skor",skorPlayer);
+    void UpScore()
+    {
+        if (skortx != null)
+        {
+            skortx.text = "Skor=" + skorPlayer;
+            PlayerPrefs.SetInt("skor", skorPlayer);
         }
-   
+
     }
-    bool isSekaliPlayfoot=false;
+    bool isFootstepPlaying = false;
     private void Update()
     {
-        
+
         var horizontal = joystick.Horizontal;
         var vertical = joystick.Vertical;
         direction = new Vector2(horizontal, vertical);
@@ -85,20 +93,21 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("Vertical", direction.y);
         }
         animator.SetFloat("Speed", direction.magnitude);
-        
+
+        if (direction.magnitude > 0.1f && !isFootstepPlaying) 
+        {
+            footstep.Play();
+            isFootstepPlaying = true;
+        } else if (direction.magnitude < 0.1f && isFootstepPlaying)
+        {
+            footstep.Stop();
+            isFootstepPlaying = false;
+        }
     }
 
     private void FixedUpdate()
     {
         rb.velocity = direction * speed;
-        if( rb.velocity != Vector2.zero && !isSekaliPlayfoot){
-            isSekaliPlayfoot=true;
-            footstep.Play();
-        }else{
-            isSekaliPlayfoot=false;
-            footstep.Stop();
-        }
-    
     }
 
 }
