@@ -5,9 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+<<<<<<< Updated upstream
   - enabled: 1
     path: Assets/Scenes/IntroStory.unity
     guid: ea4a234e4f2536e4091d705b2f9dfd33
@@ -15,12 +16,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Dungeon.unity
     guid: 51474a6683e7ff546b75243c56b69684
   - enabled: 1
+=======
+  - enabled: 0
+>>>>>>> Stashed changes
     path: Assets/Scenes/Test Scene.unity
     guid: 89ea9dbcde7176744a15d87cf8f0fe02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Istana.unity
     guid: 99e55a6ff0181824890e7ae7953af4bb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Kerajaan.unity
     guid: 0bae2766494c01a45a5e69184b44bb82
+<<<<<<< Updated upstream
+=======
+  - enabled: 1
+    path: Assets/Scenes/Halaman Istana.unity
+    guid: 4f779af35957e8e4895e3ecd74258a23
+>>>>>>> Stashed changes
   m_configObjects: {}
