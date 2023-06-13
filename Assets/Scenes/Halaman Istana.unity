@@ -126614,7 +126614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4765038042027715809, guid: 3df9048512e87c546b092323c849d016, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.4
+      value: 7.741
       objectReference: {fileID: 0}
     - target: {fileID: 4765038042027715809, guid: 3df9048512e87c546b092323c849d016, type: 3}
       propertyPath: m_LocalPosition.z
@@ -126667,6 +126667,10 @@ PrefabInstance:
     - target: {fileID: 4765038042027715837, guid: 3df9048512e87c546b092323c849d016, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765038042027715839, guid: 3df9048512e87c546b092323c849d016, type: 3}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3df9048512e87c546b092323c849d016, type: 3}

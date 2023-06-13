@@ -14,7 +14,7 @@ public class PlayerSceneHalamanIstana : MonoBehaviour
 
     Vector2 direction; 
     void Start()
-    {
+    {   playerController.enabled=false;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -24,6 +24,7 @@ public class PlayerSceneHalamanIstana : MonoBehaviour
         if (isAnimationOnce)
         {
             playerController.Direction = Vector2.zero;
+             playerController.enabled=true;
             this.GetComponent<PlayerSceneHalamanIstana>().enabled = false;
             OnAnimationDone.Invoke();
         }   
@@ -36,6 +37,7 @@ public class PlayerSceneHalamanIstana : MonoBehaviour
             rb.isKinematic = true;
             direction = (spawnPoint.position - transform.position).normalized;
             rb.velocity = direction * speed;
+            
             Debug.Log("rb.velocity" + rb.velocity);
 
             if (Vector2.Distance(transform.position, spawnPoint.position) < 0.1f)

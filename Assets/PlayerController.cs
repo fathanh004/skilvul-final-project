@@ -31,14 +31,17 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         instance = this;
-        btnInteraksi.interactable = false;
+        if(btnInteraksi!=null){
+            btnInteraksi.interactable = false;
+        }
+        
         rb.gravityScale = 0;
         if (PlayerPrefs.HasKey("skor"))
         {
             skorPlayer = PlayerPrefs.GetInt("skor");
             UpScore();
             //load posisi
-            transform.position = new Vector3(PlayerPrefs.GetFloat("posx"), PlayerPrefs.GetFloat("posy"), PlayerPrefs.GetFloat("posz"));
+         //   transform.position = new Vector3(PlayerPrefs.GetFloat("posx"), PlayerPrefs.GetFloat("posy"), PlayerPrefs.GetFloat("posz"));
         }
     }
 

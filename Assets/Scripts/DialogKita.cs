@@ -1,19 +1,32 @@
+using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Doublsb.Dialog;
 public class DialogKita : MonoBehaviour
 {
+    public bool isIntro=false;
     public static DialogKita instance;
     public DialogManager DialogManager;
     public GameObject objekPrinter;
         public GameObject kuisGo;
-
+  public SceneLoader sceneLoader;
     public GameObject[] Example;
 
+    public Image bgIntro;
+    public Sprite[] sprtIntro;
     void Awake()
     {
         instance=this;
+        if(isIntro){
+          ChangeBGIntro(0);
+          CeritaIntro();
+        }
+    }
+
+    void ChangeBGIntro(int indek){
+      bgIntro.sprite=sprtIntro[indek];
     }
     void Update()
     {
@@ -21,6 +34,29 @@ public class DialogKita : MonoBehaviour
        //   GameManagerLatihan.instance.joystickGO.SetActive(true);
    //   }
     }
+    public void CeritaIntro(){
+       var dialogTexts = new List<DialogData>();
+              //tambah dialog 1=  /color:black/ warna hitam// format= dialogTexts.Add(new DialogData("kalimat 1","" ));
+             dialogTexts.Add(new DialogData("/color:black/Suatu hari Adit ke perpustakaan untuk membaca buku","", () => ChangeBGIntro(1) ));
+                 //tambah dialog 2=
+             dialogTexts.Add(new DialogData("/color:black/Ia menemukan sebuah buku dongeng yang sangat lain dari buku lainnya",""));
+             dialogTexts.Add(new DialogData("/color:black/Bukunya sangat kelihatan tua dan kuno",""));
+             dialogTexts.Add(new DialogData("/color:black/Karena tertarik ia meminjam buku itu","", () => ChangeBGIntro(2) ));
+              dialogTexts.Add(new DialogData("/color:black/Adit pun pulang ke rumah, dan langsung makan malam bersama neneknya","", () => ChangeBGIntro(3) ));
+             dialogTexts.Add(new DialogData("/color:black/Ia kemudian mengerjakan PR",""));
+          //skip// bisa di tambahin nanti yg di skip
+          dialogTexts.Add(new DialogData("/color:black/Ia terhisap dalam buku","", () => LightUp()));
+         dialogTexts.Add(new DialogData("/color:black/Ia pun terkejut dengan apa yang dilihatnya","", () => NextScene() ));
+            
+         //penutup dialog untuk menampilkan semua dialog di atas
+           DialogManager.Show(dialogTexts);
+    }
+  void NextScene(){
+    sceneLoader.LoadScene("Dungeon");
+  }
+  void LightUp(){
+  LeanTween.value(bgIntro.color.a,1,2) ;
+  }
     public void BicarasamaNpcBurung()
     {
         //GameManagerLatihan.instance.joystickGO.SetActive(false);
