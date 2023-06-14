@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/IntroStory.unity
+    guid: ea4a234e4f2536e4091d705b2f9dfd33
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 51474a6683e7ff546b75243c56b69684
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 1235264a6b2187047b3f6f89d2324b94
+  - enabled: 1
     path: Assets/Scenes/Halaman Istana.unity
     guid: 4f779af35957e8e4895e3ecd74258a23
+  - enabled: 1
+    path: Assets/Scenes/Istana.unity
+    guid: 99e55a6ff0181824890e7ae7953af4bb
+  - enabled: 1
+    path: Assets/Scenes/EndStory.unity
+    guid: 72a31dbf4a4dcf047b8222fb66be1d82
   m_configObjects: {}
