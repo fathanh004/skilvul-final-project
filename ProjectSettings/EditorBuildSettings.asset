@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Halaman Istana.unity
-    guid: 4f779af35957e8e4895e3ecd74258a23
+  m_Scenes: []
   m_configObjects: {}
