@@ -14,6 +14,7 @@ public class QuizManager : MonoBehaviour
     public GameObject benarSalahUi;
     public GameObject kuisSelesaiUi;
     public GameObject buttnRetry;
+    public GameObject buttonQuitQuiz;
     public TextMeshProUGUI kuisSelesaiTx;
     public int maxJumlahSoal = 3;
     public int skorBenar = 0;
@@ -66,8 +67,9 @@ public class QuizManager : MonoBehaviour
             kuisSelesaiUi.SetActive(true);
             if (skorBenar == maxJumlahSoal)
             {
-                kuisSelesaiTx.text = "Selamat Kuis Selesai dengan jawaban Benar semua!";
+                kuisSelesaiTx.text = "Selamat anda berhasil menjawab semua soal dengan benar!";
                 buttnRetry.SetActive(false);
+                buttonQuitQuiz.SetActive(true);
                 //dapat hadiah/menang
                 // SistemInventori.instance.TambahItem(GameManagerLatihan.instance.hadiahInventori[0]);
             }
@@ -75,6 +77,7 @@ public class QuizManager : MonoBehaviour
             {
                 kuisSelesaiTx.text = "Maaf terdapat soal dengan jawaban yang salah, coba lagi?";
                 buttnRetry.SetActive(true);
+                buttonQuitQuiz.SetActive(false);
             }
             //Kuis selesai
         }

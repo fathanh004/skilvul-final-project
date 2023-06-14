@@ -31,6 +31,16 @@ public class NPCScript : MonoBehaviour
         animator.SetFloat("Speed", direction.magnitude);
     }
 
+    public void NPCFading()
+    {
+        animator.SetBool("IsFading", true);
+    }
+
+    public void SetGameObjectActiveFalse()
+    {
+        gameObject.SetActive(false);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
