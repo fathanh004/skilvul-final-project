@@ -8,7 +8,7 @@ public class Navigation : MonoBehaviour
     [SerializeField] NPCScript npcScript;
 
     float speed = 3;
-    bool isActive = true;
+    public bool isActive = true;
 
     void Update()
     {
