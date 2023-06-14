@@ -61,7 +61,7 @@ public class DialogHutan : MonoBehaviour
         dialogTexts.Add(new DialogData("/color:black/Apa yang harus kita lakukan","Adit"));
         dialogTexts.Add(new DialogData("/color:black/Jangan khawatir, aku bisa memperbaiki jembatan ini","Roro"));
         dialogTexts.Add(new DialogData("/color:black/Hanya saja, aku butuh kayu untuk bisa memperbaikinya","Roro"));
-        dialogTexts.Add(new DialogData("/color:black/Bisakah kamu mencari 5 batang kayu untukku ?","Roro", callback: () => MunculkanQuestUI()));
+        dialogTexts.Add(new DialogData("/color:black/Bisakah kamu mencari 5 kayu untukku ?","Roro", callback: () => MunculkanQuestUI()));
 
         dialogManager.Show(dialogTexts);
     }
