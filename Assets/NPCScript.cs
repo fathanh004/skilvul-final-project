@@ -24,7 +24,7 @@ public class NPCScript : MonoBehaviour
         if (animator.runtimeAnimatorController == null) return;
         if (direction.magnitude > 0.1f)
         {
-            Debug.Log(direction);
+            // Debug.Log(direction);
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
         }

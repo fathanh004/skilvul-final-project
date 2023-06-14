@@ -9,8 +9,6 @@ public class IteminGame : MonoBehaviour
    {
     if(other.gameObject.tag=="Player"){
         PlayerController.instance.ToggleInteractButton(true,this);
-      
-        
     }
    }
     private void OnTriggerExit2D(Collider2D other)
@@ -20,4 +18,5 @@ public class IteminGame : MonoBehaviour
         
     }
    }
+
 }

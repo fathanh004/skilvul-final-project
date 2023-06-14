@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
     Vector2 direction;
     public IteminGame itemInteraksi;
     public Vector2 Direction { get { return direction; } set { direction = value; } }
+    public UnityEvent onButtonInteraksi = new UnityEvent();
 
     private void Start()
     {
@@ -70,6 +72,7 @@ public class PlayerController : MonoBehaviour
 
         SistemInventori.instance.TambahItem(itemInteraksi.itemCollect);
         itemInteraksi.gameObject.SetActive(false);
+        onButtonInteraksi.Invoke();
     }
     public void SaveGame()
     {

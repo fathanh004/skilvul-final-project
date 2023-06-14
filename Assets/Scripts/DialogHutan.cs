@@ -20,6 +20,8 @@ public class DialogHutan : MonoBehaviour
     public UnityEvent onAfterAction = new UnityEvent();
     public GameObject[] Example;
 
+    Vector3 lastPos;
+
     void Awake() 
     {
         instance = this;    
@@ -33,7 +35,9 @@ public class DialogHutan : MonoBehaviour
 
         if(roroPergi)
         {
+            lastPos = roroPos.position;
             roroPos.position = Vector3.MoveTowards(roroPos.position, new Vector3(-4.5f, 0.6f, 0), speed * Time.deltaTime);
+            Invoke("RoroPindah", 1);
         }
     }
 
@@ -41,8 +45,8 @@ public class DialogHutan : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nKita sudah hampir sampai", ""));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nTinggal menyebrangi jembatan ini dan istananya akan terlihat", ""));
+        dialogTexts.Add(new DialogData("/color:black/Kita sudah hampir sampai", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Tinggal menyebrangi jembatan ini dan istananya akan terlihat", "Roro"));
 
         dialogManager.Show(dialogTexts);
     }
@@ -51,14 +55,13 @@ public class DialogHutan : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("/color:black/Jin :\nHaha !! Sia - sia kau memanggil bantuan", ""));
-        dialogTexts.Add(new DialogData("/color:black/Jin :\nSekarang kau tidak bisa melewati sungai ini", "", callback: () => JinPergi()));
-        dialogTexts.Add(new DialogData("/color:black/Jin pergi..."));
-        dialogTexts.Add(new DialogData("/color:black/MC :\nOh tidak !"));
-        dialogTexts.Add(new DialogData("/color:black/MC :\nApa yang harus kita lakukan"));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nJangan khawatir, aku bisa memperbaiki jembatan ini"));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nHanya saja, aku butuh kayu untuk bisa memperbaikinya"));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nBisakah kamu mencari 5 batang kayu untukku ?", callback: () => MunculkanQuestUI()));
+        dialogTexts.Add(new DialogData("/color:black/Haha !! Sia - sia kau memanggil bantuan", "Jin"));
+        dialogTexts.Add(new DialogData("/color:black/Sekarang kau tidak bisa melewati sungai ini", "Jin", callback: () => JinPergi()));
+        dialogTexts.Add(new DialogData("/color:black/Oh tidak !", "Adit"));
+        dialogTexts.Add(new DialogData("/color:black/Apa yang harus kita lakukan","Adit"));
+        dialogTexts.Add(new DialogData("/color:black/Jangan khawatir, aku bisa memperbaiki jembatan ini","Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Hanya saja, aku butuh kayu untuk bisa memperbaikinya","Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Bisakah kamu mencari 5 batang kayu untukku ?","Roro", callback: () => MunculkanQuestUI()));
 
         dialogManager.Show(dialogTexts);
     }
@@ -67,8 +70,8 @@ public class DialogHutan : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nTerima Kasih!"));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nSekarang aku akan mulai memperbaiki jembatan ini dengan sihirku", callback: () => RoroPergi()));
+        dialogTexts.Add(new DialogData("/color:black/Terima Kasih!", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Sekarang aku akan mulai memperbaiki jembatan ini dengan sihirku", "Roro", callback: () => RoroPergi()));
 
         dialogManager.Show(dialogTexts);
     }
@@ -77,10 +80,10 @@ public class DialogHutan : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("/color:black/MC :\nWow !"));
-        dialogTexts.Add(new DialogData("/color:black/MC :\nHebat sekali !"));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nItu bukan apa - apa"));
-        dialogTexts.Add(new DialogData("/color:black/Roro Jonggrang :\nAyo kita segera menuju ke istana", callback: () => AfterSihir()));
+        dialogTexts.Add(new DialogData("/color:black/Wow !", "Adit"));
+        dialogTexts.Add(new DialogData("/color:black/Hebat sekali !", "Adit"));
+        dialogTexts.Add(new DialogData("/color:black/Itu bukan apa - apa", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Ayo kita segera menuju ke istana", "Roro", callback: () => AfterSihir()));
 
         dialogManager.Show(dialogTexts);
     }
@@ -104,5 +107,11 @@ public class DialogHutan : MonoBehaviour
     void MunculkanQuestUI()
     {
         questUI.SetActive(true);
+    }
+
+    public void RoroPindah()
+    {
+        roroPos.position = lastPos;
+        roroPergi = false;
     }
 }
