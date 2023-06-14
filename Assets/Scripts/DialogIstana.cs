@@ -15,6 +15,8 @@ public class DialogIstana : MonoBehaviour
     
 
     public UnityEvent onBandungBerubah = new UnityEvent();
+    public UnityEvent onAction = new UnityEvent();
+    public UnityEvent onEnding = new UnityEvent();
 
     void Awake()
     {
@@ -73,7 +75,7 @@ public class DialogIstana : MonoBehaviour
         dialogTexts.Add (new DialogData(originalString:"/color:black/Kamu sungguh hebat", character:"Bandung"));
         dialogTexts.Add (new DialogData(originalString:"/color:black/Sama-sama, sekarang apakah aku bisa pulang", character:"Adit"));
         dialogTexts.Add (new DialogData(originalString:"/color:black/Tentu saja", character:"Roro"));
-        dialogTexts.Add (new DialogData(originalString:"/color:black/Tapi sebelum itu ada yang ingin kukatakan", character:"Roro"));
+        dialogTexts.Add (new DialogData(originalString:"/color:black/Tapi sebelum itu ada yang ingin kukatakan", character:"Roro", () => Ending()));
         dialogTexts.Add (new DialogData(originalString:"/color:black/Tetaplah jadi anak yang baik dan berguna bagi orang-orang disekitarmu seperti kamu yang telah baik dan berguna untuk kami", character:"Roro"));
         dialogTexts.Add (new DialogData(originalString:"/color:black/Kamu telah melewati banyak tantangan", character:"Bandung"));
         dialogTexts.Add (new DialogData(originalString:"/color:black/Sekarang waktunya bagi kamu untuk kembali ke duniamu", character:"Bandung"));
@@ -89,6 +91,7 @@ public class DialogIstana : MonoBehaviour
     void MunculkanKuis()
     {
         kuis.SetActive(true);
+        onAction.Invoke();
     }
 
     void RajaJinMenghilang()
@@ -100,5 +103,10 @@ public class DialogIstana : MonoBehaviour
     {
         onBandungBerubah.Invoke();
         Invoke("Dialog4", 1);
+    }
+
+    void Ending()
+    {
+        onEnding.Invoke();
     }
 }
