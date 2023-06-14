@@ -11,6 +11,7 @@ public class DialogSceneHalamanIstana : MonoBehaviour
     [SerializeField] GameObject playerCanvas;
 
     public UnityEvent OnCameraToJin;
+    public UnityEvent OnCameraToPlayer;
     public UnityEvent OnQuizStart;
 
     
@@ -45,7 +46,7 @@ public class DialogSceneHalamanIstana : MonoBehaviour
         playerCanvas.SetActive(false);
         var dialogTexts = new List<DialogData>();
         dialogTexts.Add(new DialogData("/color:black/Itu dia istananya", "Roro", () => CameraToJin()));
-        dialogTexts.Add(new DialogData("/color:black/Oh tidak! Ada penjaganya, bagaimana ini?", "Adit"));
+        dialogTexts.Add(new DialogData("/color:black/Oh tidak! Ada penjaganya, bagaimana ini?", "Adit", () => CameraToPlayer()));
         dialogTexts.Add(new DialogData("/color:black/Sekarang giliranmu untuk bersinar, kau pasti bisa melawan mereka, aku akan berada di belakangmu", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Baiklah", "Adit"));
         dialogTexts.Add(new DialogData("/color:black/Sekarang, ayo kita hampiri jin penjaga itu", "Roro", () => playerCanvasSetActive()));
@@ -65,6 +66,10 @@ public class DialogSceneHalamanIstana : MonoBehaviour
     void CameraToJin()
     {
         OnCameraToJin.Invoke();
-        Debug.Log("Camera to Jin");
+    }
+
+    void CameraToPlayer()
+    {
+        OnCameraToPlayer.Invoke();
     }
 }

@@ -27,4 +27,9 @@ public class CameraController : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, targetPos, lerpSpeed * Time.deltaTime);
     }
 
+    public void SetTarget(Transform target)
+    {
+        this.target = target;
+    }
+
 }

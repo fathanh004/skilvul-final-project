@@ -28,6 +28,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Events;
 
 namespace Doublsb.Dialog
 {
@@ -75,7 +76,10 @@ namespace Doublsb.Dialog
         //================================================
         //Public Method
         //================================================
+        public UnityEvent OnDialogStart = new UnityEvent();
+        public UnityEvent OnDialogEnd = new UnityEvent();
         #region Show & Hide
+
         public void Show(DialogData Data)
         {
             _current_Data = Data;
@@ -85,6 +89,8 @@ namespace Doublsb.Dialog
                 _emote("Normal");
 
             _textingRoutine = StartCoroutine(Activate());
+
+            OnDialogStart.Invoke();
         }
 
         public void Show(List<DialogData> Data)
@@ -115,6 +121,7 @@ namespace Doublsb.Dialog
             Printer.SetActive(false);
             Characters.SetActive(false);
             Selector.SetActive(false);
+            OnDialogEnd.Invoke();
 
             state = State.Deactivate;
 

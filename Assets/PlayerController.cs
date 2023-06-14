@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         instance = this;
+
         if(btnInteraksi!=null){
             btnInteraksi.interactable = false;
         }
@@ -69,7 +70,6 @@ public class PlayerController : MonoBehaviour
 
     public void KlikButtonInteraksi()
     {
-
         SistemInventori.instance.TambahItem(itemInteraksi.itemCollect);
         itemInteraksi.gameObject.SetActive(false);
         onButtonInteraksi.Invoke();
@@ -93,7 +93,6 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    
 
     private void Update() {
         var horizontal = joystick.Horizontal;

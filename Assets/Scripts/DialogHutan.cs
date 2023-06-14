@@ -18,6 +18,7 @@ public class DialogHutan : MonoBehaviour
     bool roroPergi = false;
     public UnityEvent onRoroAction = new UnityEvent(); 
     public UnityEvent onAfterAction = new UnityEvent();
+    public UnityEvent onJinGone = new UnityEvent();
     public GameObject[] Example;
 
     Vector3 lastPos;
@@ -31,6 +32,7 @@ public class DialogHutan : MonoBehaviour
         if(jinPergi)
         {
             jinPos.position = Vector3.MoveTowards(jinPos.position, new Vector3(200,1,0), speed * Time.deltaTime);
+            onJinGone.Invoke();
         }
 
         if(roroPergi)
