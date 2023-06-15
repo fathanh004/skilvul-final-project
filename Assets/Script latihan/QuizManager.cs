@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using TMPro;
 public class QuizManager : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class QuizManager : MonoBehaviour
     public int skorBenar = 0;
 
     public TextMeshProUGUI benarSalahTx;
+    
+    public UnityEvent onPanelKonteks2 = new UnityEvent();
+    public UnityEvent onPanelKonteks3 = new UnityEvent();
     // Start is called before the first frame update
     void Start()
     {
@@ -58,9 +62,20 @@ public class QuizManager : MonoBehaviour
 
         if (indexSoal < maxJumlahSoal)
         {
+            //Panel konteks
+            if(indexSoal == 2 )
+            {
+                onPanelKonteks2.Invoke();
+            }
+            else if(indexSoal == 4)
+            {
+                onPanelKonteks3.Invoke();
+            }
             //next soal
             GenerateSoal();
             benarSalahUi.SetActive(false);
+
+
         }
         else
         {

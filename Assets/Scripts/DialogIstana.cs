@@ -16,7 +16,9 @@ public class DialogIstana : MonoBehaviour
 
     public UnityEvent onBandungBerubah = new UnityEvent();
     public UnityEvent onAction = new UnityEvent();
+    public UnityEvent onRajaJinHilang = new UnityEvent();
     public UnityEvent onEnding = new UnityEvent();
+
 
     void Awake()
     {
@@ -96,7 +98,7 @@ public class DialogIstana : MonoBehaviour
 
     void RajaJinMenghilang()
     {
-        
+        onRajaJinHilang.Invoke();
     }
 
     void BandungBerubah()
