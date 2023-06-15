@@ -22,6 +22,7 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI benarSalahTx;
     
+    public UnityEvent onPanelKonteks1 = new UnityEvent();
     public UnityEvent onPanelKonteks2 = new UnityEvent();
     public UnityEvent onPanelKonteks3 = new UnityEvent();
     // Start is called before the first frame update
@@ -99,6 +100,7 @@ public class QuizManager : MonoBehaviour
     }
     public void Retry()
     {
+        onPanelKonteks1.Invoke();
         kuisSelesaiUi.SetActive(false);
         benarSalahUi.SetActive(false);
         indexSoal = 0;
