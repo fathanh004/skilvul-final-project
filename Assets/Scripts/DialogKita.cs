@@ -10,6 +10,7 @@ public class DialogKita : MonoBehaviour
     public static DialogKita instance;
     public DialogManager DialogManager;
     public GameObject objekPrinter;
+        public GameObject partikleglow;
         public GameObject kuisGo;
   public SceneLoader sceneLoader;
     public GameObject[] Example;
@@ -20,6 +21,7 @@ public class DialogKita : MonoBehaviour
     {
         instance=this;
         if(isIntro){
+          PlayerPrefs.SetString("lastlevel","IntroStory");
           ChangeBGIntro(0);
           CeritaIntro();
         }
@@ -43,19 +45,33 @@ public class DialogKita : MonoBehaviour
              dialogTexts.Add(new DialogData("/color:black/Bukunya sangat kelihatan tua dan kuno",""));
              dialogTexts.Add(new DialogData("/color:black/Karena tertarik ia meminjam buku itu","", () => ChangeBGIntro(2) ));
               dialogTexts.Add(new DialogData("/color:black/Adit pun pulang ke rumah, dan langsung makan malam bersama neneknya","", () => ChangeBGIntro(3) ));
-             dialogTexts.Add(new DialogData("/color:black/Ia kemudian mengerjakan PR",""));
-          //skip// bisa di tambahin nanti yg di skip
-          dialogTexts.Add(new DialogData("/color:black/Ia terhisap dalam buku","", () => LightUp()));
-         dialogTexts.Add(new DialogData("/color:black/Ia pun terkejut dengan apa yang dilihatnya","", () => NextScene() ));
+             dialogTexts.Add(new DialogData("/color:black/Ia kemudian mengerjakan PR Matematika dan melihat jam",""));
+              dialogTexts.Add(new DialogData("/color:black/Ia sadar bahwa sudah malam dan tidak lupa menyiapkan buku untuk keesokan harinya","", () => ChangeBGIntro(4) ));
+          dialogTexts.Add(new DialogData("/color:black/Dia ingat bahwa dia meminjam buku dari perpustakaan sekolah dan memutuskan untuk membacanya","", () => LightUp()));
+          dialogTexts.Add(new DialogData("/color:black/Saat membuka buku tersebut, secara tiba-tiba keluar seberkas cahaya dari buku tersebut ",""));
+         dialogTexts.Add(new DialogData("/color:black/Ia pun terkejut dengan apa yang dilihatnya...","", () => NextScene() ));
             
          //penutup dialog untuk menampilkan semua dialog di atas
            DialogManager.Show(dialogTexts);
     }
   void NextScene(){
+      partikleglow.SetActive(false);
+   
+    StartCoroutine(Nextload());
+  }
+  IEnumerator Nextload(){
+    yield return new WaitForSeconds(3);
+  
     sceneLoader.LoadScene("Dungeon");
   }
   void LightUp(){
-  LeanTween.value(bgIntro.color.a,1,2) ;
+  partikleglow.SetActive(true);
+  StartCoroutine(lightload());
+  }
+   IEnumerator lightload(){
+    yield return new WaitForSeconds(3);
+   bgIntro.gameObject.SetActive(false);
+   
   }
     public void BicarasamaNpcBurung()
     {

@@ -17,13 +17,13 @@ public class Navigation : MonoBehaviour
             Vector3 targetPos = target.transform.position;
             float distance = Vector2.Distance(target.transform.position, transform.position);
 
-            if(distance > 0.5f) 
+            if(PlayerController.instance.direction != Vector2.zero && (distance>0.5f))
             {
                 transform.position = Vector2.MoveTowards(transform.position, targetPos,speed * Time.deltaTime);
                 npcScript.Direction = targetPos - transform.position;
-            }
+            }else
 
-            if (distance < 0.5f)
+           // if (distance < 0.5f)
             {
                 npcScript.Direction = Vector2.zero;
             }

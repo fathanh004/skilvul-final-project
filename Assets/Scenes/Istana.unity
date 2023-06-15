@@ -86235,6 +86235,10 @@ PrefabInstance:
       propertyPath: btnInteraksi
       value: 
       objectReference: {fileID: 1904109963}
+    - target: {fileID: 4765038042027715811, guid: 3df9048512e87c546b092323c849d016, type: 3}
+      propertyPath: LevelSekarang
+      value: Istana
+      objectReference: {fileID: 0}
     - target: {fileID: 4765038042027715837, guid: 3df9048512e87c546b092323c849d016, type: 3}
       propertyPath: m_Name
       value: Player

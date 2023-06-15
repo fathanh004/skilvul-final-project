@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [Header("Physics")]
     [SerializeField] float speed;
     [SerializeField] Rigidbody2D rb;
+    [SerializeField] string LevelSekarang="Dungeon";
 
     [Header("User Interface")]
     [SerializeField] VariableJoystick joystick;
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI skortx;
     public int skorPlayer = 0;
     public bool isFindInteractable = false;
-    Vector2 direction;
+    public Vector2 direction;
     public IteminGame itemInteraksi;
     public Vector2 Direction { get { return direction; } set { direction = value; } }
     public UnityEvent onButtonInteraksi = new UnityEvent();
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         instance = this;
-
+        PlayerPrefs.SetString("lastlevel",LevelSekarang);
         if(btnInteraksi!=null){
             btnInteraksi.interactable = false;
         }

@@ -736,7 +736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnd: 1
   DialogManager: {fileID: 1818550756}
-  sceneLoader: {fileID: 0}
+  sceneLoader: {fileID: 1818550759}
   Example: []
   bgEnd: {fileID: 329488370}
   sprtEnd:
@@ -746,6 +746,18 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 21a276b5458b24f4781d7c4142a08611, type: 3}
   - {fileID: 21300000, guid: 629433e5e6a60ea4bb4a82adea8e80c6, type: 3}
   - {fileID: 21300000, guid: 629433e5e6a60ea4bb4a82adea8e80c6, type: 3}
+--- !u!114 &1818550759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818550757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b94abceb512c64db85fa714c28b947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1843178250
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,16 +42,16 @@ public class EndStory : MonoBehaviour
             dialogTexts.Add(new DialogData("/color:black/Sesampainya disana, ia menemui anak yang tengah dibullying","" , () => ChangeBGEnd(3) ));
             dialogTexts.Add(new DialogData("/color:black/dan mencegahnya","", () => ChangeBGEnd(4) ));
             dialogTexts.Add(new DialogData("/color:black/Aksinya ditonton anak anak sebayanya,","", () => ChangeBGEnd(5)));
-            dialogTexts.Add(new DialogData("/color:black/dan berkat aksinya membuat dia terkenal berani dan memiliki banyak teman.",""));
+            dialogTexts.Add(new DialogData("/color:black/dan berkat aksinya membuat dia terkenal berani dan memiliki banyak teman.","", () => NextScene()));
 
         DialogManager.Show(dialogTexts);
     }
   void NextScene(){
-    sceneLoader.LoadScene("Dungeon");
+    PlayerPrefs.DeleteKey("lastlevel");
+    sceneLoader.LoadScene("Credit");
+
   }
-  void LightUp(){
-  LeanTween.value(bgEnd.color.a,1,2) ;
-  }
+
 
     private void Show_Example(int index)
     {
