@@ -1,3 +1,4 @@
+using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,13 +36,13 @@ public class EndStory : MonoBehaviour
     public void CeritaEnd()
     {
        var dialogTexts = new List<DialogData>();
-            dialogTexts.Add(new DialogData("/coloo:black/Kembali ke dunia nyata","", () => ChangeBGEnd(1) ));
-            dialogTexts.Add(new DialogData("/coloo:black/Kata pamungkas dari Roro Jonggrang membekas di hati dan pikirannya, ia ingin berguna bagi sesama, ia ingin punya teman",""));
-            dialogTexts.Add(new DialogData("/coloo:black/Akhirnya ia memutuskan pergi ke lapangan yang ramai","", () => ChangeBGEnd(2) ));
-            dialogTexts.Add(new DialogData("/coloo:black/Sesampainya disana, ia menemui anak yang tengah dibullying",""));
-            dialogTexts.Add(new DialogData("/coloo:black/dan mencegahnya","" ));
-            dialogTexts.Add(new DialogData("/coloo:black/ Aksinya ditonton anak anak sebayanya,",""));
-            dialogTexts.Add(new DialogData("/coloo:black/dan berkat aksinya membuat dia terkenal berani dan memiliki banyak teman.","", () => ChangeBGEnd(3) ));
+            dialogTexts.Add(new DialogData("/color:black/Kembali ke dunia nyata","", () => ChangeBGEnd(1) ));
+            dialogTexts.Add(new DialogData("/color:black/Kata pamungkas dari Roro Jonggrang membekas di hati dan pikirannya, ia ingin berguna bagi sesama, ia ingin punya teman",""));
+            dialogTexts.Add(new DialogData("/color:black/Akhirnya ia memutuskan pergi ke lapangan yang ramai","", () => ChangeBGEnd(2) ));
+            dialogTexts.Add(new DialogData("/color:black/Sesampainya disana, ia menemui anak yang tengah dibullying",""));
+            dialogTexts.Add(new DialogData("/color:black/dan mencegahnya","" ));
+            dialogTexts.Add(new DialogData("/color:black/Aksinya ditonton anak anak sebayanya,",""));
+            dialogTexts.Add(new DialogData("/color:black/dan berkat aksinya membuat dia terkenal berani dan memiliki banyak teman.","", () => ChangeBGEnd(3) ));
 
         DialogManager.Show(dialogTexts);
     }
