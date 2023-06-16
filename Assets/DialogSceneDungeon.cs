@@ -25,12 +25,13 @@ public class DialogSceneDungeon : MonoBehaviour
         dialogTexts.Add(new DialogData("/color:black/Selamat datang wahai pahlawan", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Eeh? Di mana aku? Kenapa aku bisa ada di sini?", "Adit"));
         dialogTexts.Add(new DialogData("/color:black/Kita tidak punya banyak waktu, jadi akan aku persingkat saja", "Roro"));
-        dialogTexts.Add(new DialogData("/color:black/Namaku Roro Jonggrang dan aku adalah ratu di kerajaan Borobudur ini", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Namaku Roro Jonggrang dan aku adalah ratu di kerajaan Prambanan ini", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Aku memanggilmu ke dunia ini karena aku membutuhkan bantuanmu untuk mengalahkan pasukan Jin", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Jin? Tapi aku hanya anak kecil biasa", "Adit"));
         dialogTexts.Add(new DialogData("/color:black/Tidak, kamu adalah manusia terpilih yang memiliki kekuatan untuk melawan jin", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Kekuatan apa itu?", "Adit"));
-        dialogTexts.Add(new DialogData("/color:black/Dengan kekuatanmu, bangsa jin tidak dapat mengutukmu menjadi batu, selain itu kau juga bisa menyerang mereka dengan menjawab pertanyaan-pertanyaan mereka", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Dengan kekuatanmu, bangsa jin tidak dapat mengutukmu menjadi batu", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Selain itu kau juga bisa menyerang mereka dengan menjawab pertanyaan-pertanyaan mereka", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Tolong selamatkan kerajaan kami dari Raja Jin yang sedang menguasai istanaku", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Baiklah, akan kucoba", "Adit"));
         dialogTexts.Add(new DialogData("/color:black/Terima kasih, nak!", "Roro"));
