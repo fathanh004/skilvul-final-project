@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ItemInventory : MonoBehaviour
 {
-     public string namaItem="";
+    public string namaItem="";
      public string deskripsi="";
      public Outline outlineitem;
    //  public Image imgItem="";
