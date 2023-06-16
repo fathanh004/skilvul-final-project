@@ -10,6 +10,8 @@ public class Navigation : MonoBehaviour
     float speed = 3;
     public bool isActive = true;
 
+    
+   
     void Update()
     {
         if (isActive)
@@ -33,5 +35,10 @@ public class Navigation : MonoBehaviour
     public void IsActive(bool value)
     {
         isActive = value;
+    }
+
+    public void SetSpeed(float value)
+    {
+        speed = value;
     }
 }
