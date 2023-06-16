@@ -72,7 +72,7 @@ public class DialogHutan : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("/color:black/Terima Kasih!", "Roro"));
+        dialogTexts.Add(new DialogData("/color:black/Terima Kasih !", "Roro"));
         dialogTexts.Add(new DialogData("/color:black/Sekarang aku akan mulai memperbaiki jembatan ini dengan sihirku", "Roro", callback: () => RoroPergi()));
 
         dialogManager.Show(dialogTexts);
